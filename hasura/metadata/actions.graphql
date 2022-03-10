@@ -1,0 +1,19 @@
+scalar json 
+
+type Query {
+  responseJson: [json!]!
+}
+
+type Query {
+  responseJsonItem: json
+}
+
+type Query {
+  responseType: [ResponseOutput!]!
+}
+
+type ResponseOutput {
+  hello: String!
+  data: json
+}
+
